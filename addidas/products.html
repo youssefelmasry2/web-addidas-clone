@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="he" style="font-family: AdihausDIN;">
+        <p style="margin-left: 20%;">FREE DELIVERY OVER 999 EGP </p>
+        <P>ADICLUB IS HERE</P>
+        <p>WELCOME OFFER 20% OFF</p>
+
+    </div>
+    <div id="navbar" style="display: flex;">
+        <div style="width: 400px; margin-right: 0;">
+            <a href="mainLogged.php" target="_blank"><img src="image/adidas-new-20225326.jpg" id="adi_icon"></a>
+        </div>
+        <div style="margin-left: 100px; height: 60px;">
+            <ul style="margin: 0;">
+                <li> <a>TOPS</a> </li>
+                <li><a href="productpants.html">BOTTOM</a></li>
+                <li> <a href="productshoes.html">BOOTS</a> </li>
+                <li> <a style="color:red;">SALE</a> </li>
+
+            </ul>
+        </div>
+        <div class="se" style="padding-bottom:20px ;">
+            <form class="example" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search" style="padding: 0px;"></i></button>
+            </form>
+        </div>
+
+        <div class="masry" style="margin-bottom:20px ;">
+            <a><img src="https://www.adidas.com.eg/on/demandware.static/Sites-adidas-EG-Site/-/default/dwa6ac014f/images/profile.svg"
+                    alt="profile"></a>
+            <a><img src="https://www.adidas.com.eg/on/demandware.static/Sites-adidas-EG-Site/-/default/dw571f1778/images/bag%20empty.svg"
+                    alt="bag"></a>
+
+        </div>
+    </div>
+
+
+    <div class="prod">
+        <div style="width: 100%;">
+            <div style="width: 55%; margin-left: 20px;">
+                <h1 style="font-size: 50px;font-family: AdihausDIN,sans-serif;font-weight: 500;
+letter-spacing: 0.83px;width: 100%;color:#111111;font-style: italic;font-weight: bold;">MEN'S CLOTHING</h1>
+                <p
+                    style="font-size: 16px;line-height: 25px; font-family: AdihausDIN, sans-serif;font-weight: 300;height: 70px;">
+                    If you're looking for men's clothing that's stylish, sporty and comfortable, the adidas men's range
+                    is difficult to beat. Whether you're heading to the gym, hitting the pitch or just chilling out,
+                    you'll find your perfect match.</p>
+            </div>
+        </div>
+
+
+        <div class="im_cont">
+            <div>
+                <a href="tops.html"><img src="image/pants224.webp"></a>
+            </div>
+            <div style="padding-left:15px ;">
+                <p>Run seasonal tee</p>
+                <p style="font-weight: 700;">EGP 1,790.00</p>
+                <p class="men">Men Originals</p>
+            </div>
+        </div>
+
+
+        <div class="im_cont">
+            <div>
+                <a href="tops1.html"><img src="image/t2.webp"></a>
+            </div>
+            <div style="padding-left:15px ;">
+                <p>ADICOLOR CLASSICS TREFOIL TEE</p>
+                <p style="font-weight: 700;">EGP 1,149.00</p>
+                <p class="men">Men Originals</p>
+            </div>
+        </div>
+
+
+
+        <div class="im_cont">
+            <div>
+                <a href="top2.html"><img src="image/t11.webp"></a>
+            </div>
+            <div style="padding-left:15px ;">
+                <p>ANNIVERSARY TEE</p>
+                <p style="font-weight: 700;">EGP 677.40</p>
+                <p class="men">Men Originals</p>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+</body>
+
+</html>

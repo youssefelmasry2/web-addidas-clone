@@ -1,0 +1,87 @@
+.data .form input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.data .form input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.data .form p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.button {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    margin-top: 0;
+}
+
+.form {
+    margin: 40px;
+    margin-left: 18%;
+    margin-top: 0px;
+    width: 30%;
+
+}
+
+.info {
+
+    width: 30%;
+
+
+}
+
+.forget {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+
+
+    color: black;
+}
+
+.forget:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.container input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    outline: 0px;
+    border: 1px solid grey;
+    margin-right: 0.5rem;
+    font-size: 1.6rem;
+    background: transparent;
+    background-color: black;
+}
+
+#pw {
+    left: 100%;
+    justify-content: right;
+}
