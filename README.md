@@ -33,8 +33,7 @@ This project is an e-commerce website inspired by the Adidas online store. It fe
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/adidas-ecommerce-clone.git
-   cd adidas-ecommerce-clone
+   git clone https://github.com/youssefelmasry2/web-addidas-clone/
 2. run main.html in a local server (xampp recommended)
    
    
